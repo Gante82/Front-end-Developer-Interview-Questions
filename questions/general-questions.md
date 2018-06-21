@@ -1,6 +1,7 @@
 # General Questions:
 
 * What did you learn yesterday/this week?
+> I learned how to properly use the flexbox layout in CSS. The Flexible Box Module, usually referred to as flexbox, was designed as a one-dimensional layout model, and as a method that could offer space distribution between items in an interface and powerful alignment capabilities. This article gives an outline of the main features of flexbox, which we will be exploring in more detail in the rest of these guides. Source: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox
 * What excites or interests you about coding?
 * What is a recent technical challenge you experienced and how did you solve it?
 * When building a new web site or maintaining one, can you explain some techniques you have used to increase performance?
