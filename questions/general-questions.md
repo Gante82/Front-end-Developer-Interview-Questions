@@ -3,7 +3,7 @@
 * What did you learn yesterday/this week?
 > I learned how to properly use the flexbox layout in CSS. The Flexible Box Module, usually referred to as flexbox, was designed as a one-dimensional layout model, and as a method that could offer space distribution between items in an interface and powerful alignment capabilities. Source: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox
 * What excites or interests you about coding?
-> The thing that excites me the is to be able to build something new from scratch just by using my brain and a computer. The possibilities of what you are able to create are infinite.
+> The thing that excites me the most is to be able to build something new from scratch just by using my brain and a computer. The possibilities of what you are able to create are infinite.
 * What is a recent technical challenge you experienced and how did you solve it?
 > I had to retrieve data from Microsoft's Active Directory by using LDAP. It was a first for me and I found the filters syntax to be a bit confusing in the beginning. But after checking several examples over the Internet I was able to make it work.
 * When building a new website or maintaining one, can you explain some techniques you have used to increase performance?
