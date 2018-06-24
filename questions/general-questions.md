@@ -3,10 +3,28 @@
 * What did you learn yesterday/this week?
 > I learned how to properly use the flexbox layout in CSS. The Flexible Box Module, usually referred to as flexbox, was designed as a one-dimensional layout model, and as a method that could offer space distribution between items in an interface and powerful alignment capabilities. Source: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox
 * What excites or interests you about coding?
-> The thing that excites me the most is to be able to build something new from scratch just by using my brain and a computer. The possibilities of what you are able to create are infinite.
+> The thing that excites me the is to be able to build something new from scratch just by using my brain and a computer. The possibilities of what you are able to create are infinite.
 * What is a recent technical challenge you experienced and how did you solve it?
 > I had to retrieve data from Microsoft's Active Directory by using LDAP. It was a first for me and I found the filters syntax to be a bit confusing in the beginning. But after checking several examples over the Internet I was able to make it work.
 * When building a new website or maintaining one, can you explain some techniques you have used to increase performance?
+> 1. Image Optimization by applying lossless and/or lossy compression techniques and only using images with the right size.
+> 2. HTTP Requests Number Reduction. When your browser fetches data from a server it does so using HTTP (Hypertext Transfer Protocol). It is a request/response between a client and a host. In general the more HTTP requests your web page makes the slower it will load. There are many ways you can reduce the number of requests such as:
+
+Inline your Javascript (only if it is very small)
+Using CSS Sprites
+Reducing assets such as 3rd party plugins that make a large number of external requests
+Don’t use 3rd party frameworks unless they are absolutely needed
+Use less code!
+Combining your CSS and JS files (with HTTP/2 concatenation is no longer as important)
+>3. 3. CSS and Javascript Minification.
+Source: https://www.keycdn.com/blog/website-performance-optimization
+Minification of resources means removing unnecessary characters from your HTML, Javascript, and CSS that are not required to load, such as:
+
+White space characters
+New line characters
+Comments
+Block delimiters
+This speeds up your load times as it reduces the amount of code that has to be requested from the server.
 * Can you describe some SEO best practices or techniques you have used lately?
 * Can you explain any common techniques or recent issues solved in regards to front-end security?
 * What actions have you personally taken on recent projects to increase maintainability of your code?
