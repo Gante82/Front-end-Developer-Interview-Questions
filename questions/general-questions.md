@@ -10,19 +10,21 @@
 > 1. Image Optimization by applying lossless and/or lossy compression techniques and only using images with the right size.
 > 2. HTTP Requests Number Reduction. When your browser fetches data from a server it does so using HTTP (Hypertext Transfer Protocol). It is a request/response between a client and a host. In general the more HTTP requests your web page makes the slower it will load. There are many ways you can reduce the number of requests such as:
 
-> Inline your Javascript (only if it is very small)
-> Using CSS Sprites
-> Reducing assets such as 3rd party plugins that make a large number of external requests
-> Don’t use 3rd party frameworks unless they are absolutely needed
-> Use less code!
-> Combining your CSS and JS files (with HTTP/2 concatenation is no longer as important)
+> * Inline your Javascript (only if it is very small)
+> * Using CSS Sprites
+> * Reducing assets such as 3rd party plugins that make a large number of external requests
+> * Don’t use 3rd party frameworks unless they are absolutely needed
+> * Use less code!
+> * Combining your CSS and JS files (with HTTP/2 concatenation is no longer as important)
+
 > 3. CSS and Javascript Minification.
 > Minification of resources means removing unnecessary characters from your HTML, Javascript, and CSS that are not required to load, such as:
 
-> White space characters
-> New line characters
-> Comments
-> Block delimiters
+> * White space characters
+> * New line characters
+> * Comments
+> * Block delimiters
+
 > This speeds up your load times as it reduces the amount of code that has to be requested from the server.
 > Source: https://www.keycdn.com/blog/website-performance-optimization
 * Can you describe some SEO best practices or techniques you have used lately?
